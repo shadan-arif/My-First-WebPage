@@ -1,0 +1,8 @@
+ body
+    {background-image:url('images/b1.jpg');
+    background-size: cover;
+    }
+
+
+
+document.getlementBy ID("myDiv").stylelbackgroundImage = "url('images/b1.jpg')"

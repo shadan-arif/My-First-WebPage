@@ -1,0 +1,54 @@
+@-ms-keyframes "arif" {
+ 0% {
+   margin-left: 100px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "arif" {
+ 0% {
+   margin-left: 100px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+
+@keyframes "arif" {
+ 0% {
+    margin-left: 100px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes arif {
+ 0% {
+   margin-left: 100px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+
+
+
+-webkit-animation: arif 20s linear infinite;
+	   -moz-animation: arif 20s linear infinite;
+	    -ms-animation: arif 20s linear infinite;
+	     -o-animation: arif 20s linear infinite;
+
+
+
+
+.paused {
+-webkit-animation-play-state: paused; /* Safari and Chrome */
+animation-play-state: paused;
+}
